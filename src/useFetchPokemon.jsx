@@ -17,7 +17,7 @@ export const fetchPokemonData = async (num = 8) => {
   console.log("Fetched Pokemon Data:", pokemonData);
   return pokemonData.map(pokemon => ({
     id: pokemon.id,
-    image: pokemon.sprites.font_default,
+    image: pokemon.sprites.front_default,
   }))
 }
 
